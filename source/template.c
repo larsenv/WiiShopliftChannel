@@ -2857,7 +2857,6 @@ void game_selectionmenu()
 MENU:
 	while (true)
 	{
-		u32 pressed1;
 		u32 pressed;
 
 		WPAD_ScanPads();
@@ -2867,7 +2866,6 @@ MENU:
 		resetscreen();
 
 		pressed = WPAD_ButtonsDown(0);
-		pressed1 = WPAD_ButtonsHeld(0);
 
 		printf("\x1B[%d;%dH", 3, 0); // move console cursor to y/
 		printf("Wii Shoplift Channel v1.0 - By Larsenv\tPress 2 to view a disclaimer\n\n");
@@ -2887,7 +2885,7 @@ MENU:
 			}
 		}
 
-		if (pressed == WPAD_BUTTON_UP || pressed1 == WPAD_BUTTON_UP)
+		if (pressed == WPAD_BUTTON_UP)
 		{
 			if (selection > 0)
 			{
@@ -2905,7 +2903,7 @@ MENU:
 			}
 		}
 
-		if (pressed == WPAD_BUTTON_DOWN || pressed1 == WPAD_BUTTON_DOWN)
+		if (pressed == WPAD_BUTTON_DOWN)
 		{
 			if (selection < length)
 			{
@@ -2923,7 +2921,7 @@ MENU:
 			}
 		}
 
-		if (pressed == WPAD_BUTTON_RIGHT || pressed1 == WPAD_BUTTON_RIGHT)
+		if (pressed == WPAD_BUTTON_RIGHT)
 		{
 			if (selection < length && (page * 16) + 16 < length)
 			{
@@ -2937,7 +2935,7 @@ MENU:
 			}
 		}
 
-		if (pressed == WPAD_BUTTON_LEFT || pressed1 == WPAD_BUTTON_LEFT)
+		if (pressed == WPAD_BUTTON_LEFT)
 		{
 			if (selection > 0 && (page * 16) + 16 < length)
 			{
