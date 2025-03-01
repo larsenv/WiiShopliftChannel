@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app version="1">
+    <name>Wii Shoplift Channel</name>
+    <coder>Larsenv</coder>
+    <version>1.0</version>
+    <release_date>2025030100000</release_date>
+    <short_description>Download any Wii Shop title</short_description>
+    <long_description>This app lets you download whatever title you want off the Wii Shop Channel. It requires a patched IOS, tickets, and this app which boots into the Wii Shop to download the title. It also works on the official Wii Shop
+    </long_description>
+    <no_ios_reload />
+</app>
