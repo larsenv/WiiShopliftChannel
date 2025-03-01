@@ -14,5 +14,5 @@ Here are the instructions to set this up.
 2. Launch Wii Mod Lite. (Yet Another WAD Manager ModMii and Some YAWMM Mod will not work because they don't let you install a whole folder of WADs.)
 3. Go into WAD Manager and install the corresponding IOS56 for your system in the ios folder, Wii or Wii U. Make sure you select the right one.
 4. Open the ticket folder. Your Wii will freeze. Come back in 15-25 minutes, as it will take a while to load every ticket.
-5. Press 1 to install all the WADs. These contain the tickets necessary for downloading on the Wii Shop Channel. It will take a while.
+5. Press 1 to install all the WADs. These contain the tickets necessary for downloading on the Wii Shop Channel. It will take a while. You will see a error on every WAD installation. This is normal.
 6. Open Wii Shoplifting Channel and select the game you want to download. The Wii Shop Channel will download the game and it will appear on your Wii Menu
