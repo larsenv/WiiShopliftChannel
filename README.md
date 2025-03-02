@@ -1,6 +1,8 @@
 ![Wii Shoplift Channel](http://transfer.archivete.am/9Qu6m/wiishop.png)
 
-Before we begin, I will say that I'm not responsible for what you do with this, this tool is a grey area. Also, credit to aep since he helped me with this
+Before we begin, I will say that I'm not responsible for what you do with this, this tool is a grey area.
+
+Also, credit to aep since he helped me with this
 
 This tool is intended to provide a way to download games from the Wii Shop directly onto your Wii, even after shutdown.
 
