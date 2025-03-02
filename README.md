@@ -2,8 +2,6 @@
 
 Before we begin, I will say that I'm not responsible for what you do with this, this tool is a grey area.
 
-# NOTE only US games are working right now. It will be fixed as soon as possible if we find a way to fix it
-
 Also, credit to aep since he helped me with this
 
 This tool is intended to provide a way to download games from the Wii Shop directly onto your Wii, even after shutdown.
@@ -14,10 +12,12 @@ How does this work? You install a patched IOS56 for the Wii Shop Channel, instal
 
 Here are the instructions to set this up.
 
-1. Download the zip and extract it to your SD. This will take a little bit, because thousands of WAD files containing tickets are in the zip.
-2. Install the corresponding IOS56 in the wad folder with your favorite WAD manager. Make sure you select the right one for your console.
-3. Download and install [WiiXplorer](http://hbb1.oscwii.org/hbb/wiixplorer/wiixplorer.zip).
-4. Go to Start > Settings > Boot Settings > Enable NAND Write Access. Press Yes, then Accept, then press Back until you get back to the main menu.
-5. Open the ticket folder. Wait a couple minutes. Hold down 1 on one of the files, then select Properties. If the total file size is 1.69 MB you can continue. Otherwise, you will have to wait for the other files to load.
-6. Hold down 1 on one of the files again, then press the Plus Button on your Wii Remote, then press Copy. Then navigate to NAND -> ticket -> 00010001. Press the Plus Button again, and then press Paste. Wait until this process finishes.
-7. Open Wii Shoplifting Channel and select the game you want to download. The Wii Shop Channel will download the game and it will appear on your Wii Menu
+1. Making a NAND backup is recommended prior to trying this.
+2. Download the zip and extract it to your SD. This will take a little bit, because thousands of WAD files containing tickets are in the zip.
+3. Install the corresponding IOS56 in the wad folder with your favorite WAD manager. Make sure you select the right one for your console.
+4. Download and install [WiiXplorer](http://hbb1.oscwii.org/hbb/wiixplorer/wiixplorer.zip).
+5. Go to Start > Settings > Boot Settings > Enable NAND Write Access. Press Yes, then Accept, then press Back until you get back to the main menu.
+6. Open the ticket folder. Wait a couple minutes. Hold down 1 on one of the files, then select Properties. If the total file size is 1.69 MB you can continue. Otherwise, you will have to wait for the other files to load.
+7. Hold down 1 on one of the files again, then press the Plus Button on your Wii Remote, then press Copy. Then navigate to NAND -> ticket -> 00010001. Press the Plus Button again, and then press Paste. Wait until this process finishes. If you get a dialog asking if you want to replace files, select No to All.
+8. Open Wii Shoplifting Channel and select the game you want to download. The Wii Shop Channel will download the game and it will appear on your Wii Menu
+9. You can now enjoy the game
