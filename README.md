@@ -2,7 +2,7 @@
 
 Before we begin, I will say that I'm not responsible for what you do with this, this tool is a grey area.
 
-# NOTE only US games are working right now and we are investigating this
+# NOTE only US games are working right now. It will be fixed as soon as possible because we have found how to fix it
 
 Also, credit to aep since he helped me with this
 
