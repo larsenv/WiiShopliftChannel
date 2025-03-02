@@ -38,7 +38,7 @@ void disclaimer()
 struct Game
 {
 	uint64_t id;
-	char country[2];
+	char country[3];
 	char title[256];
 };
 
