@@ -17,5 +17,5 @@ Here are the instructions to set this up.
 5. Go to Start > Settings > Boot Settings > Enable NAND Write Access. Press Yes, then Accept, then press Back until you get back to the main menu.
 6. Open the ticket folder. Wait a couple minutes. Hold down 1 on one of the files, then select Properties. If the total file size is 1.69 MB you can continue. Otherwise, you will have to wait for the other files to load.
 7. Hold down 1 on one of the files again, then press the Plus Button on your Wii Remote, then press Copy. Then navigate to NAND -> ticket -> 00010001. Press the Plus Button again, and then press Paste. Wait until this process finishes. If you get a dialog asking if you want to replace files, select No to All.
-8. Open Wii Shoplifting Channel and select the game you want to download. The Wii Shop Channel will download the game and it will appear on your Wii Menu
+8. Open Wii Shoplifting Channel and select the game you want to download. The Wii Shop Channel will download the game and it will appear on your Wii Menu. If you get error 209601 during download you can ignore it. Also, if you turn on support to download directly to the SD, it might not work if the file size is large
 9. You can now enjoy the game
