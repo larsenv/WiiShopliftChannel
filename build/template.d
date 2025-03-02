@@ -1,4 +1,4 @@
-template.o: /Users/larsen/Downloads/application/source/template.c \
+template.o: /Users/larsen/Downloads/WiiShopliftChannel/source/template.c \
  /opt/devkitpro/libogc/include/gccore.h \
  /opt/devkitpro/libogc/include/ogc/dsp.h \
  /opt/devkitpro/libogc/include/gctypes.h \

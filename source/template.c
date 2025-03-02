@@ -1885,7 +1885,7 @@ struct Game game[] = {
 	{0x000100014e414b53, "ES", "Pokemon Snap (Spain) (N64) (VC)"},
 	{0x000100014e414b45, "US", "Pokemon Snap (USA) (N64) (VC)"},
 	{0x000100015750394a, "JP", "Pokers Wii (Japan) (WiiWare)"},
-	{0x000100014e414e44, "DE", "Poke╠ümon Puzzle League (Germany) (N64) (VC)"},
+	{0x000100014e414e44, "DE", "Pokemon Puzzle League (Germany) (N64) (VC)"},
 	{0x000100015750354a, "JP", "Pokosuka Racing (Japan) (WiiWare)"},
 	{0x0001000158495245, "US", "Pong Toss Pro - Frat Party Games (USA) (Demo) (WiiWare)"},
 	{0x0001000157505745, "US", "Pong Toss Pro - Frat Party Games (USA) (WiiWare)"},
@@ -2855,6 +2855,8 @@ void game_selectionmenu()
 
 	int length = sizeof(game) / sizeof(game[0]);
 
+	bool sd = false;
+
 MENU:
 	while (true)
 	{
@@ -2869,7 +2871,16 @@ MENU:
 		pressed = WPAD_ButtonsDown(0);
 
 		printf("\x1B[%d;%dH", 3, 0); // move console cursor to y/
-		printf("Wii Shoplift Channel v1.1 - By Larsenv\tPress 2 to view a disclaimer\n\n");
+		printf("Wii Shoplift Channel v1.2 - By Larsenv\n");
+		if (sd)
+		{
+			printf("Press 1 to download to NAND\t\t\t\t\t\t");
+		}
+		else
+		{
+			printf("Press 1 to download to SD\t\t\t\t\t\t\t");
+		}
+		printf("Press 2 to view a disclaimer\n\n");
 
 		if (pressed == WPAD_BUTTON_2)
 		{
@@ -2950,10 +2961,15 @@ MENU:
 			}
 		}
 
+		if (pressed == WPAD_BUTTON_1)
+		{
+			sd = !sd;
+		}
+
 		if (pressed == WPAD_BUTTON_A)
 		{
 			char title[61];
-			sprintf(title, "/oss/serv/B_09.jsp?titleId=%016llx&country=%s", game[selection].id, game[selection].country);
+			sprintf(title, "/oss/serv/B_09.jsp?titleId=%016llx&country=%s%s", game[selection].id, game[selection].country, (sd) ? "&SD=Y" : "");
 			WII_LaunchTitleWithArgs(0x0001000248414241LL, 0, title, NULL);
 		}
 
