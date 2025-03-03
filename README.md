@@ -26,9 +26,9 @@ How does this work? You install a patched IOS56 for the Wii Shop Channel, instal
 
 ## Installing Tickets (FTP)
 
-1. Use **ftpii** or **ftpiiu** (on a Wii U) to start up a FTP server.
+1. Use **ftpii** to start up a FTP server.
 2. Use a FTP client on another device and enter the IP and port of the FTP server.
-3. Copy the contents of the **ticket** folder included with **Wii Shoplift Channel** to your NAND folder -> **ticket** -> **00010001**. The NAND folder is called **isfs** if using **ftpii**, and **slccmpt01** if using **ftpiiu**. Wait a while for all the contents to be copied over.
+3. Copy the contents of the **ticket** folder included with **Wii Shoplift Channel** to your NAND folder -> **ticket** -> **00010001**. The NAND folder is called **isfs**. Wait a while for all the contents to be copied over.
 
 # Wii Shop Error Codes
 
