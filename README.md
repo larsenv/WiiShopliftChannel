@@ -32,5 +32,7 @@ How does this work? You install a patched IOS56 for the Wii Shop Channel, instal
 # Wii Shop Error Codes
 
 204036 - IOS isn't patched
+
 204050 - Tickets not installed
+
 209601 - If you get this error you can ignore it
