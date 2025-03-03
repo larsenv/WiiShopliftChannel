@@ -10,11 +10,12 @@ How does this work? You install a patched IOS56 for the Wii Shop Channel, instal
 
 # Instructions
 
-1.	Download **WiiXplorer** (if you are using a Wii) and the **Wii Shoplift Channel** application.
-2.	Put the app and the **WAD** and **ticket** folder included in the zip file on your SD/USB. (If using a Wii U, you do not need to copy the ticket folder)
-3.	Launch your favorite **WAD Manager** and install the patched **IOS56** for your corresponding system.
-4.	If using a Wii, follow the instructions below for **Installing Tickets (WiiXplorer)** or **Installing Tickets (FTP)**. Otherwise, if you are using a Wii U, follow the instructions below for **Installing Tickets (Wii U Only)**. (WiiXplorer cannot install tickets properly on a Wii U)
-5.	Open **Wii Shoplift Channel** and select the game you want to download. The **Wii Shop Channel** will download the game, and it will appear on your **Wii Menu**. Also, if you enable the option to download directly to the SD, it may not work if the file size is too large
+1.	Perform a NAND backup prior to using this tool.
+2.	Download **WiiXplorer** (if you are using a Wii) and the **Wii Shoplift Channel** application.
+3.	Put the app and the **WAD** and **ticket** folder included in the zip file on your SD/USB. (If using a Wii U, you do not need to copy the ticket folder)
+4.	Launch your favorite **WAD Manager** and install the patched **IOS56** for your corresponding system.
+5.	If using a Wii, follow the instructions below for **Installing Tickets (WiiXplorer)** or **Installing Tickets (FTP)**. Otherwise, if you are using a Wii U, follow the instructions below for **Installing Tickets (Wii U Only)**. (WiiXplorer cannot install tickets properly on a Wii U)
+6.	Open **Wii Shoplift Channel** and select the game you want to download. The **Wii Shop Channel** will download the game, and it will appear on your **Wii Menu**. Also, if you enable the option to download directly to the SD, it may not work if the file size is too large
 
 ## Installing Tickets (WiiXplorer)
 
