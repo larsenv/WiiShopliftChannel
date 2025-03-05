@@ -12,24 +12,23 @@ How does this work? You install a patched IOS56 for the Wii Shop Channel, instal
 
 1.	Perform a NAND backup prior to using this tool, as it can be potentially dangerous. Also, make sure you are using the latest version of the tool. Older versions have major issues that could mess up things.
 2.	Download **WiiXplorer** (if you are using a Wii) and the **Wii Shoplift Channel** application.
-3.	Put the app and the **WAD** and **ticket** folder included in the zip file on your SD/USB. (If using a Wii U, you do not need to copy the ticket folder)
+3.	Put the app and the **WAD** folder included in the zip file on your SD/USB. (If using a Wii U, you do not need to copy the ticket folder)
 4.	Launch your favorite **WAD Manager** and install the patched **IOS56** for your corresponding system.
-5.	If using a Wii, follow the instructions below for **Installing Tickets (WiiXplorer)** or **Installing Tickets (FTP)**. Otherwise, if you are using a Wii U, follow the instructions below for **Installing Tickets (Wii U Only)**. (WiiXplorer cannot install tickets properly on a Wii U) ***We are working on a way to update the app to remove this step as this fills up Wii memory space.***
+5.	Get the title ID of the game you want to install from [http://github.com/larsenv/WiiShopliftChannel/blob/main/source/template.c#L46](here) and copy the ticket with that ID to the ticket folder on your SD (the filename is that ID without **00010001** at the start of the name). Then follow the instructions below for **Installing Tickets (WiiXplorer)** or **Installing Tickets (FTP)**. Otherwise, if you are using a Wii U, follow the instructions below for **Installing Tickets (Wii U Only)**. (WiiXplorer cannot install tickets properly on a Wii U) ***We are working on a app update to copy the tickets automatically.***
 7.	On the Wii Menu, you might get a message saying the Wii System Memory is full. If you do, then free up some space.
 8.	Open **Wii Shoplift Channel** and select the game you want to download. The **Wii Shop Channel** will download the game, and it will appear on your **Wii Menu**. Also, if you enable the option to download directly to the SD, it may not work if the file size is too large
 
 ## Installing Tickets (WiiXplorer)
 
 1. Open **WiiXplorer**. Go to **Start** > **Settings** > **Boot Settings** > **Enable NAND Write Access**. Press **Yes**, then **Accept**, then press **Back** until you return to the main menu.
-2.	Open the **ticket** folder on your SD/USB. Wait a couple of minutes. Hold down the **1 Button** on one of the files until all the files are highlighted, then select **Properties**. If the total file size is **1.69** MB, you can continue. Otherwise, you will have to wait for the other files to load.
-3.	Hold down the **1 Button** on one of the files again, then press the **Plus Button**, then press Copy. Navigate to **NAND** > **ticket** > **00010001**.
-4.	Press the **Plus Button** again, then press **Paste**. Wait until the process finishes. If you get a dialog asking if you want to replace files, select **No to All**.
+2. Select the tickets you want to install. Press the **Plus Button**, then press **Copy**.
+3. Navigate to **nand** -> **ticket** -> **00010001*. Press the **Plus Button** again, then press **Paste**. Wait until the process finishes. If you get a dialog asking if you want to replace files, select **No to All**.
 
 ## Installing Tickets (FTP)
 
 1. Use **ftpii** to start up a FTP server.
 2. Use a FTP client on another device and enter the IP and port of the FTP server.
-3. Copy the contents of the **ticket** folder included with **Wii Shoplift Channel** to your NAND folder -> **ticket** -> **00010001**. The NAND folder is called **isfs**. Wait a while for all the contents to be copied over.
+3. Copy the tickets you want to your NAND folder -> **ticket** -> **00010001**. The NAND folder is called **isfs**.
 
 # Wii Shop Error Codes
 
