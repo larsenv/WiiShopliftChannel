@@ -10,11 +10,11 @@ How does this work? You install a patched IOS56 for the Wii Shop Channel, instal
 
 # Instructions
 
-1.	Perform a NAND backup prior to using this tool. Also, make sure you are using the latest version of the tool. Older versions have major issues that could mess up things.
+1.	Perform a NAND backup prior to using this tool, as it can be potentially dangerous. Also, make sure you are using the latest version of the tool. Older versions have major issues that could mess up things.
 2.	Download **WiiXplorer** (if you are using a Wii) and the **Wii Shoplift Channel** application.
 3.	Put the app and the **WAD** and **ticket** folder included in the zip file on your SD/USB. (If using a Wii U, you do not need to copy the ticket folder)
 4.	Launch your favorite **WAD Manager** and install the patched **IOS56** for your corresponding system.
-5.	If using a Wii, follow the instructions below for **Installing Tickets (WiiXplorer)** or **Installing Tickets (FTP)**. Otherwise, if you are using a Wii U, follow the instructions below for **Installing Tickets (Wii U Only)**. (WiiXplorer cannot install tickets properly on a Wii U)
+5.	If using a Wii, follow the instructions below for **Installing Tickets (WiiXplorer)** or **Installing Tickets (FTP)**. Otherwise, if you are using a Wii U, follow the instructions below for **Installing Tickets (Wii U Only)**. (WiiXplorer cannot install tickets properly on a Wii U) __**We are working on a way to update the app to remove this step as this fills up Wii memory space.**__
 6.	On the Wii Menu, you might get a message saying the Wii System Memory is full. We are not sure why this occurs, however you can then free up some space.
 7.	Open **Wii Shoplift Channel** and select the game you want to download. The **Wii Shop Channel** will download the game, and it will appear on your **Wii Menu**. Also, if you enable the option to download directly to the SD, it may not work if the file size is too large
 
