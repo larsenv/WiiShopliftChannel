@@ -1,4 +1,4 @@
-# IMPORTANT: We are aware of a announcement going out which says there are potential brick risks. We are sincerely sorry for that. The tickets filled up the Wii Memory with nodes. We have already edited the instructions temporarily to stop recommending people install all the tickets, and we plan to make a safer version.
+# IMPORTANT: We are aware of a announcement going out which says there are potential brick risks. We are sincerely sorry for that. The tickets filled up the Wii Memory with nodes. We have already edited the instructions temporarily to stop recommending people install all the tickets, and we plan to make a safer version
 
 ![Wii Shoplift Channel](http://transfer.archivete.am/9Qu6m/wiishop.png)
 
