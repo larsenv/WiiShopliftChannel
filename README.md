@@ -1,4 +1,4 @@
-# IMPORTANT: We are aware of an announcement going out which says there are bricks occuring. We are sincerely sorry for that. The tickets filled up the inodes in the Wii system memory. We have already edited the instructions temporarily to stop recommending people to install all the tickets, and we plan to make a safer version,
+# IMPORTANT: We are aware of an announcement going out which says there are bricks occurring. We are sincerely sorry for that. The tickets filled up the inodes in the Wii system memory. We have already edited the instructions temporarily to stop recommending people to install all the tickets, and we plan to make a safer version,
 
 ![Wii Shoplift Channel](http://transfer.archivete.am/9Qu6m/wiishop.png)
 
